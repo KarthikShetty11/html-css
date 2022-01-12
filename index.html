@@ -40,11 +40,32 @@
         <legend>Personal Information</legend>
         
         First Name:<br>
-        <input type="text" name="firstname" value=""><br><br>
-
+        <input type="text" name="firstname" value="" placeholder="First Name Here">
+        <br><br>
         Last Name:<br>
-        <input type="text" name="lastname" value=""><br><br>
+        <input type="text" name="lastname" value="" placeholder="Last Name Here">
+        <br><br>
+      
+        <input type="radio" name="options"> Option1
+        <input type="radio" name="options">Option2
+        <br>
 
-        <input type="submit" value="submit">
+        <input type="checkbox" name="checkboxes" checked>checkbox1
+        <input type="checkbox" name="checkboxes">checkbox2
+        <input type="checkbox" name="checkboxes">checkbox3
+        <br><br>
+        
+        <label for="carSelect"> Select Car</label>
+        <select name="cars" id="carSelect">
+            <option value="BMW" selected>BMW </option>
+            <option value="Volvo" >Volvo</option>
+            <option value="Audi" >Audi</option>
+        </select>
+        <br><br>
+
+        <input type="submit" value="submit"><br>
+
     </fieldset>
 </form>
+<br>
+<button>Click Me</button>
