@@ -1,31 +1,70 @@
-h1
-{
-    background-color: brown;
-    color: white;
-}
+
 
 body{
     font-family: Arial, Helvetica, sans-serif;
     font-size: 16px;
     line-height: 1.6em;
+    margin: 0;
 }
+/*units of measurement*/
+/*px vs em*/
+
+.container{
+    color: teal;
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+#mainHeader{
+    background: #333;
+}
+
+#mainNav{
+    background: #ccc;
+    color: black;
+}
+
+#mainNav ul{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+#mainNav li{
+    display: inline;
+    padding: 5px 10px;
+}
+
+#mainNav a{
+    color: black;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+#mainNav li:hover{
+    background: teal;
+}
+
+
+
 
 h2{
     color: green;
     
 }
+h3
+{
+    background-color: brown;
+    color: white;
+}
 
-/*units of measurement*/
-/*px vs em*/
-
-
-p{ border-top: 4px solid seagreen;
+p
+{   border-top: 4px solid seagreen;
     border-right: 3px solid yellowgreen;
     border-left: 3px solid yellowgreen;
     border: 3px solid sienna;
-
     padding: 10px 20px 10px 20px;
-
     margin-top: 40px;
-    
 }
+
