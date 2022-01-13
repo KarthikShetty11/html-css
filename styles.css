@@ -103,3 +103,11 @@ h3
     padding: 20px;
     margin-top: 50px;
 }
+
+@media (max-width:600px){
+    #main, #sidebar{
+     width: 100%;
+     float: none;  
+     border: none; 
+    }
+}
