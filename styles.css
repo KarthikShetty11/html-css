@@ -16,5 +16,16 @@ h2{
 }
 
 /*units of measurement*/
-
 /*px vs em*/
+
+
+p{ border-top: 4px solid seagreen;
+    border-right: 3px solid yellowgreen;
+    border-left: 3px solid yellowgreen;
+    border: 3px solid sienna;
+
+    padding: 10px 20px 10px 20px;
+
+    margin-top: 40px;
+    
+}
