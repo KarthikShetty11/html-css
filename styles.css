@@ -46,6 +46,19 @@ body{
     background: teal;
 }
 
+#jumbo{
+    background-color: rgba(14, 9, 7, 0.76);
+    background-position: center center;
+    min-height: 200px;
+    text-align: center;
+}
+
+#jumbo h1{
+  color: white;
+  font-size: 45px;
+  padding-top: 20px;
+  line-height: 1.6em;
+}
 
 
 
