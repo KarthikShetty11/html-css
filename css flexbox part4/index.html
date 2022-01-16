@@ -10,12 +10,16 @@
         .flexbox-container{
          height: 95vh;
          display: flex;
+
+        
          /* flex-direction: column;
             flex-wrap: wrap; */
+         /*          
          flex-flow: column wrap;
          justify-content: space-between;
          align-items: center;
-         
+         height: 95vh; */
+
          /* flex-wrap: wrap;
          justify-content: space-evenly;
          align-items: flex-end;
@@ -23,32 +27,51 @@
          height: 95vh;  */
         }
         .flexbox-item{
-         width: 25%;
+         /* width: 25%; */
+         /* flex-basis: 30% ; */
          background-color: orangered;
          border: 3px solid yellowgreen;
          color:bisque;
          font-size: 2em;
          padding: 20px;
-         margin: 10px; 
-        }
+         margin: 10px;
+         display: flex;
+         justify-content: center;
+         align-items: center;
+         }
 
         .item-1{
            min-height: 50px;
+           /* flex-grow: 1;
+           flex-shrink: 1; */
+           flex: 1 1 15%;
+           /* align-self: center; */
+           order: 2;
         }
         .item-2{
           min-height: 100px;
+          /* flex-grow: 4;
+          flex-shrink: 4; */
+          flex: 1 1 25%;
+          /* align-self: flex-end; */
+          order:1;
         }
         .item-3{
           min-height: 250px;
+          /* flex-grow: 1;
+          flex-shrink: 1; */
+          flex: 5 5 25%;
+          /* align-self: flex-start; */
+          order:3;
         }
         
     </style>
 </head>
 <body>
     <div class="flexbox-container">
-        <div class="flexbox-item item-1">1</div>
-        <div class="flexbox-item item-2">2</div>
-        <div class="flexbox-item item-3">3</div>
+        <div class="flexbox-item item-1">Main Content</div>
+        <div class="flexbox-item item-2">Left Aside</div>
+        <div class="flexbox-item item-3">Right Aside</div>
 </div>
 </body>
 </html>
