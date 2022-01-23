@@ -9,32 +9,8 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-<!-- 
-<div class='container'>
-    <div class='row'>
-      
-        <div class='col-sm-12 col-md-6 col-lg-3'>
-        <button type="button">Primary</button>
-      </div>
-      
-      <div class='col-sm-12 col-md-6 col-lg-3'>
-        <button type="button">Secondary</button>
-      </div>
-      
-      <div class='col-sm-12 col-md-6 col-lg-3'>
-        <button type="button">Information</button>
-      </div>
-      
-      <div class='col-sm-12 col-md-6 col-lg-3'>
-        <button type="button">Warning</button>
-      </div>
 
-    </div>
-</div> -->
-
-
-
-<div class="container">
+<!-- <div class="container">
         
     <div class="row">
       
@@ -55,8 +31,56 @@
       </div>
 
       </div>
- </div>
+ </div> -->
+<div class="container mt-5">
+ <form class="row g-3">
+ 
+   <div class="col-md-4">
+     <lable for="firstName" class="form-lable">First Name</lable> 
+     <input type="text" class="form-control" placeholder="Type First name here" id="firstName" required>
+   </div>
 
+  <div class="col-md-4">
+     <lable for="lastName" class="form-lable">Last Name</lable> 
+     <input type="text" class="form-control" placeholder="Type Last name here" id="lastName" required>  
+  </div>
+
+  <div class="col-md-8">
+      <lable for="emailInfo" class="form-lable">E-mail</lable>
+      <input type="email" class="form-control" placeholder="Type email ID here" id="emailInfo" required>
+  </div>
+
+  <div>
+    <h6 class="mb-0">your experience</h6>
+            <div class="rating"> <input type="radio" name="rating" value="5" id="5"><label for="5">☆</label> <input type="radio" name="rating" value="4" id="4"><label for="4">☆</label> <input type="radio" name="rating" value="3" id="3"><label for="3">☆</label> <input type="radio" name="rating" value="2" id="2"><label for="2">☆</label> <input type="radio" name="rating" value="1" id="1"><label for="1">☆</label> 
+</div>
+             
+
+  <div class="col-md-12">
+     <lable for="comments" class="form-lable">Additioanl comments or suggestions</lable>
+     <textarea class="form-control" id="comments" rows="3" required></textarea>
+  </div>
+ 
+  <div class="col-md-12">
+      <button type="submit" class="btn btn-primary">Submit</button>
+  </div>
+
+
+ </form>   
+</div>
+ 
+<!-- <form>
+    <div class="row">
+      <div class="col">
+        <input type="text" class="form-control" placeholder="First name">
+      </div>
+      <div class="col">
+        <input type="text" class="form-control" placeholder="Last name">
+      </div>
+    </div>
+  </form> -->
+
+  
 
 <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amnpF" crossorigin="anonymous"></script>
